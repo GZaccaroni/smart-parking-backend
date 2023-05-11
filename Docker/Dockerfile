@@ -1,4 +1,4 @@
-FROM azul/zulu-openjdk:17
+FROM azul/zulu-openjdk:20
 
 ENV PARKING_SLOT_DB_CONNECTION_STRING=mongodb://localhost/
 ENV USER_DB_CONNECTION_STRING=mongodb://localhost/
