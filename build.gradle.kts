@@ -66,9 +66,14 @@ subprojects {
         }
     }
     signing {
+        fun String.base64Decode(): String =
+            String(Base64.getDecoder().decode(this))
+        fun String.decodeIfNeeded(): String =
+            if (startsWith("base64=")) removePrefix("base64=").base64Decode()
+            else this
         val signingKey: String? by project
         val signingPassword: String? by project
-        useInMemoryPgpKeys(signingKey?.chunked(64)?.joinToString("\n"), signingPassword)
+        useInMemoryPgpKeys(signingKey?.decodeIfNeeded(), signingPassword)
     }
 
     // CONFIG
