@@ -1,5 +1,12 @@
 # Changelog
 
+## [2.0.2](https://github.com/GZaccaroni/smart-parking-backend/compare/v2.0.1...v2.0.2) (2023-05-11)
+
+
+### Bug Fixes
+
+* added credentials to publish on maven central to env ([da25861](https://github.com/GZaccaroni/smart-parking-backend/commit/da25861214048a5046b4022664e903d69aa148d9))
+
 ## [2.0.1](https://github.com/GZaccaroni/smart-parking-backend/compare/v2.0.0...v2.0.1) (2023-05-11)
 
 
