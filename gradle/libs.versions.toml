@@ -7,7 +7,7 @@ logbackClassic = "1.4.7"
 junit = "5.9.3"
 buildconfig = "4.0.4"
 publishOnCentral = "5.0.5"
-dokka = "1.8.10"
+dokka = "1.8.20"
 
 [libraries]
 mongodb-driver-sync = { group = "org.mongodb", name = "mongodb-driver-sync", version.ref = "mongoDbDriver" }
