@@ -6,7 +6,7 @@ mongoDbDriver = "4.9.1"
 logbackClassic = "1.4.7"
 junit = "5.9.3"
 buildconfig = "4.0.4"
-publishOnCentral = "5.0.6"
+publishOnCentral = "5.0.7"
 dokka = "1.8.20"
 
 [libraries]
