@@ -5,7 +5,7 @@ kotlinxDateTime = "0.4.0"
 mongoDbDriver = "4.10.0"
 logbackClassic = "1.4.8"
 junit = "5.9.3"
-buildconfig = "4.1.0"
+buildconfig = "4.1.1"
 publishOnCentral = "5.0.7"
 dokka = "1.8.20"
 
