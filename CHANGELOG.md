@@ -1,5 +1,15 @@
 # Changelog
 
+## [2.0.3](https://github.com/GZaccaroni/smart-parking-backend/compare/v2.0.2...v2.0.3) (2023-06-30)
+
+
+### Bug Fixes
+
+* **deps:** update dependency ch.qos.logback:logback-classic to v1.4.8 ([c92b9ea](https://github.com/GZaccaroni/smart-parking-backend/commit/c92b9ea3723fc30327906c6a2589d64fe2f946be))
+* **deps:** update dependency org.jetbrains.kotlin:kotlin-test-junit to v1.8.22 ([9a9575e](https://github.com/GZaccaroni/smart-parking-backend/commit/9a9575e32c1a068e09536dc2f65689e82cf636e7))
+* **deps:** update dependency org.mongodb:mongodb-driver-sync to v4.10.0 ([5e91931](https://github.com/GZaccaroni/smart-parking-backend/commit/5e91931eabbc87694d5c32a40e5dfceb0142a774))
+* **deps:** update dependency org.mongodb:mongodb-driver-sync to v4.10.1 ([9dfe683](https://github.com/GZaccaroni/smart-parking-backend/commit/9dfe683e33d85e373cf887eba1bb80a1349e342b))
+
 ## [2.0.2](https://github.com/GZaccaroni/smart-parking-backend/compare/v2.0.1...v2.0.2) (2023-05-11)
 
 
